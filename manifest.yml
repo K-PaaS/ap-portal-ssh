@@ -1,0 +1,8 @@
+---
+applications:
+- name: ssh-app
+  buildpacks: 
+   - nodejs_buildpack_17
+  memory: 1024M
+  instances: 1
+  path: .
