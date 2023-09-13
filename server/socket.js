@@ -136,7 +136,6 @@ module.exports = function socket (socket) {
 	console.log('port: ' + socket.request.session.ssh.port)
 	console.log('username: ' + socket.request.session.username)
 	console.log('password: ' + socket.request.session.userpassword)
-	//console.log('privatekey: ' + require('fs').readFileSync('D:\\IN-SOFT\\70.프로젝트\\10.PaaS-TA\\50. 어플리케이션 플랫폼\\AWS KEY\\CFAR-key.pem'))
 	
 	//host: 'ssh.galaxycloud.kr',
 	//port: 2222,
@@ -150,7 +149,6 @@ module.exports = function socket (socket) {
       username: socket.request.session.username,
       password: socket.request.session.userpassword,
       //privateKey: socket.request.session.privatekey,
-	  //privateKey: require('fs').readFileSync('D:\\IN-SOFT\\70.프로젝트\\10.PaaS-TA\\50. 어플리케이션 플랫폼\\AWS KEY\\CFAR-key.pem'),
       tryKeyboard: true,
       algorithms: socket.request.session.ssh.algorithms,
       readyTimeout: socket.request.session.ssh.readyTimeout,

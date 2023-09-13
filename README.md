@@ -1,4 +1,4 @@
-# PAAS-TA-PORTAL-SSH
+# ap-portal-ssh
 ## 버전 정보
 CF Container App SSH 접속을 제공하는 서비스
 
@@ -13,7 +13,7 @@ Portal SSH 란? CF Container App SSH 접속을 제공하는 서비스이다.
 - ssh2 module 미 출시 버전<br>
   (https://github.com/mscdex/ssh2#readme)
 - git clone<br>
-  cd PAAS-TA-PORTAL-SSH<br>
+  cd ap-portal-ssh<br>
   npm install --production (처음 clone 후 1회 실행)<br>
   npm install (개발 진행시 실행.)
 - 최초 실행시 ssh2 모듈이 미 출시 버전 혹은 사용자 모듈 사용으로 오류가 발생 할 수 있다.<br>
